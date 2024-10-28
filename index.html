@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Ali Ahmed Samad">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<meta name="description" content="This is the Blooming Petals Project">
+
+ <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+ <!-- Linking My Style CSS file -->
+ <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+ <link rel="stylesheet" href="assets/css/sliderstyle.css">
+ <link rel="stylesheet" type="text/css" href="assets/css/mediaq.css">
+ <link rel="icon" href="assets/logo.png">
+
+ <!-- Linking Icon Library file -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+
+ <!-- Adding Jquery file -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+ <!-- Adding Jquery popper.js file -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+ <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+<style>
+  .burger-button {
+    top: 38px;
+    right: 15px;
+    font-size: 20px;
+  }
+  .mlogo {
+    top: 4px;
+    left: 9px;
+    width: 55px;
+  }
+</style>
+ <title>Home</title>
+</head>
+<body>
+  <!-- Modal -->
+           
+        <!-- Discount popup Block     -->
+		<div class="discount" id="disctt">
+			<h4>Starting at $19 <small><a href="#">Shop Pakistan's Favourite Florist</a></small></h4>
+			<button type="button" id="dis-close"><span>&times;</span></button>
+		</div>
+
+                                <!-- Header or Navigation Section Start-->
+    <nav class="navbar stickyNav" id="topnavd">
+      <div class="gettop" id="scrolltotop" onclick="topFunction()">
+        <a href="#topnavd"></a>
+      </div>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times;</a>
+        <p style="font-size: 14px; text-align: center;">Free Delivery: Take advantage of our time to save event</p>
+        <div class="topicon-contents">
+          <input type="search" name="search" placeholder="search our store">
+          <button type="button"><i class="fa fa-search"></i></button><br>
+          <div class="support-icons">
+            <a href="#"><span class="fa fa-heart-o" style="padding-left: 8px;"></span></a>
+          </div>
+          <div class="support-icons">
+            <a href="contact.html"><span class="material-icons" style="vertical-align: middle; padding-left:8px;">people_outline</span></a>
+          </div>
+          <div class="support-icons">
+            <div class="cart-parent">
+              <a href="#"><span class="fa fa-shopping-cart" style="padding-left: 8px;"></span></a>
+              <div class="cart-content-side">
+                <h4>Your Cart is empty</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="main-list">
+          <li class="collapsible">Shop</li>
+          <ul class="expanded-list content">
+            <li class="subcat">Occasion</li>
+            <ul class="expanded-list-1">
+             <li><a href="Anniversary.html">Anniversary</a></li>
+             <li><a href="Any-Occasion.html">Any Occasion</a></li>
+             <li><a href="Birthday.html">Birthday</a></li>
+             <li><a href="Get-wellsoon.html">Get well</a></li>
+             <li><a href="Newbaby.html">New Baby</a></li>
+           </ul>
+           <li class="subcat">Sympathy</li>
+           <ul class="expanded-list-1">
+            <li><a href="Sympathy-Flowers-for-Home.html">Flowers for Home</a></li>
+            <li><a href="Sympathy-Funeral-Sprays.html">Funeral Sprays</a></li>
+            <li><a href="Sympathy-Funeral-Tributes.html">Funeral Tributes</a></li>
+          </ul>
+
+          <li class="subcat">Flowers</li>
+          <ul class="expanded-list-1">
+            <li><a href="Bouquets.html">Bouquet</a></li>
+            <li><a href="Roses.html">Roses</a></li>
+            <li><a href="FTD.html">FTD</a></li>
+            <li><a href="Orchids.html">Orchids</a></li>
+          </ul>
+        </ul>
+        <li><a href="Plants.html">Plants</a></li>
+        <li><a href="Gift-Baskets.html">Gift Baskets</a></li>
+        <li><a href="Wedding.html">Wedding</a></li>
+        <li><a href="Event-Decors.html">Event Decor</a></li>
+      </ul>
+      <div class="sidenav-follow-us">
+        <ul class="sidenav-social-icons">
+          <li><a href="#"><span class="fa fa-twitter-square" ></span></a></li>
+          <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+          <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+          <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+        </ul>
+      </div>
+      
+    </div>
+      <div class="burger-button">
+        <a href="#"><sp
+          an class="fa fa-shopping-cart" style="padding-right: 10px;"></span></a>
+        <span onclick="openNav()">&#9776;</span>
+      </div>
+    <a class="mlogo" href="index.html"><img class="mlogo" src="assets/logo.png"></a>
+
+    <ul class="nav-list">
+     <li class="dropcontent"><a href="#">Shop <span class="fa fa-caret-down"></span></a>
+      <ul class="dropdown">
+
+        <ul class="flist">
+          <li class="subcat">OCCASION</li>
+          <li><a href="Anniversary.html">Anniversary</a></li>
+          <li><a href="Any-Occasion.html">Any Occasion</a></li>
+          <li><a href="Birthday.html">Birthday</a></li>
+          <li><a href="Get-wellsoon.html">Get well</a></li>
+          <li><a href="Newbaby.html">New Baby</a></li>
+        </ul>
+        <ul class="slist">
+          <li class="subcat">SYMPATHY</li>
+          <li><a href="Sympathy-Flowers-for-Home.html">Flowers for Home</a></li>
+          <li><a href="Sympathy-Funeral-Sprays.html">Funeral Sprays</a></li>
+          <li><a href="Sympathy-Funeral-Tributes.html">Funeral Tributes</a></li>
+        </ul>
+
+        <ul class="tlist">
+          <li class="subcat">FLOWERS</li>
+          <li><a href="Bouquets.html">Bouquet</a></li>
+          <li><a href="Roses.html">Roses</a></li>
+          <li><a href="FTD.html">FTD</a></li>
+          <li><a href="Orchids.html">Orchids</a></li>
+        </ul>
+        <ul>
+          <li><a href="#"><img src="assets/images/weddingimg.jpg" width="200px" height="240px" style="height: 240px;
+          padding: 10px;"></a></li>
+        </ul>
+      </ul>
+    </li>
+    <li><a href="Plants.html">Plants</a></li>
+    <li><a href="Gift-Baskets.html">Gift Baskets</a></li>
+    <li><a href="Wedding.html">Wedding</a></li>
+    <li><a href="Event-Decors.html">Event Decor</a></li>
+  </ul>
+  <div class="right-contents">
+    <input type="search" name="search" placeholder="search our store">
+    <button type="button"><i class="fa fa-search"></i></button>
+    <div style="display: inline; padding: 8px; margin-left: 5px; font-size: 20px;">
+      <a href="#"><span class="fa fa-heart-o" style="padding-left: 8px;"></span></a>
+      <a href="contact.html"><span class="material-icons" style="vertical-align: middle; padding-left:8px;">people_outline</span></a>
+      <div class="cart-parent">
+        <a href="#"><span class="fa fa-shopping-cart" style="padding-left: 8px;"></span></a>
+        <div class="cart-content">
+          <p>Your Cart is empty</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+
+                              <!-- Header or Navigation Section End -->
+
+<div  id="main">
+                                  <!-- Page Image Slider Start -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="item-contentWrapper">
+          <div class="item-content">
+            <h4>SUMMER VIBES<br>Bloomings Co.</h4>
+            <h1 style="color: #f39600;">SUMMER<br>FLOWERS</h1>
+            <h4>Shop farm-fresh flowers</h4>
+            <button class="bttn slids-button">SUMMER BLOOMS</button>
+          </div>
+        </div>
+        <img src="assets/images/1.jpg" alt="summer Blooms" style="width:100%; height: 100%">
+      </div>
+
+      <div class="item">
+        <div class="item-contentWrapper">
+         <div style="color: white;" class="item-content">
+          <h4>BIRTHDAY GIFTS<br>Bloomings Co.</h4>
+          <h1>BIRTHDAY<br>FLOWERS</h1>
+          <h4>Shop farm-fresh flowers</h4>
+          <button class="bttn slids-button"><a style="color: white;" href="Birthday.html">Shop Birthday Gifts</a></button>
+        </div>
+      </div>
+      <img src="assets/images/2.jpg" alt="Try Best Blooms" style="width:100%; height: 100%">
+    </div>
+    <div class="item">
+      <div class="item-contentWrapper">
+       <div style="color: white;" class="item-content lilyGreen">
+        <h4>END OF SUMMER VIBES<br>Bloomings Co.</h4>
+        <h1>ROSH<br>HASHANAH</h1>
+        <h4>Shop farm-fresh flowers</h4>
+        <button class="bttn slids-button"><a style="color: white;" href="Roses.html">ROSH PETALS</a></button>
+      </div>
+    </div>
+    <img src="assets/images/3.jpg" alt="Try Best Blooms" style="width:100%; height: 100%">
+  </div>
+</div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+                                <!-- Page Image Slider End -->
+
+                          <!-- Trending Products Container Start -->
+<h2 class="trend-head">TRENDING PRODUCTS & GIFTS</h2>
+<!-- Products Container Section start -->
+<div class="products-container">
+                                      <!-- Product Card start -->
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="card-discount"><span>Soldout</span></h5>
+      <img src="assets/images/juliet-garden-rose.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Woodland Beauty™</p>
+      <div class="card-text" >
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <p><span>$97.00</span></p>
+      <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+    </div>
+  </div>
+                                      <!-- Product card End -->
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="card-discount"><span>-18%</span></h5>
+      <img src="assets/images/Arrive-In-Style_large.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Arrive In Style™ Bouquet</p>
+      <div class="card-text" >
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <p><span>$45.00  </span><span><del><small>$55.00</small></del></span></p>
+      <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="card-discount"><span>-23%</span></h5>
+      <img src="assets/images/12-Black-Long-Stem-Roses.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>12 Black Long Stem Rose™</p>
+      <div class="card-text" >
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <p><span>$50.00  </span><span><del><small>$65.00</small></del></span></p>
+      <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="card-discount"><span>-15%</span></h5>
+      <img src="assets/images/Extreme-Blue-Hues-Fiesta.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Extream Blue Hues™</p>
+      <div class="card-text" >
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <p><span>$79.00 </span><span><del><small>$99.00</small></del></span></p>
+      <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card-img">
+      <img src="assets/images/orange-rose-hypericum-boutonniere.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Free Spirit™ Boutonniere</p>
+      <div class="card-text" >
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <p><span>$19.00</span></p>
+      <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="card-discount"><span>-18%</span></h5>
+      <img src="assets/images/Garden-Celebration-Bouquet.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Garden Celebration™</p>
+      <div class="card-text" >
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <p><span>$89.00 </span><span><del><small>$109.00</small></del></span></p>
+      <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="card-discount"><span>-11%</span></h5>
+      <img src="assets/images/Garden-Of-Monet_large.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Garden Of Monet™ Bouquet</p>
+      <div class="card-text" >
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <p><span>$169.00 </span><span><del><small>$189.00</small></del></span></p>
+      <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="card-discount"><span>SOLDOUT</span></h5>
+      <img src="assets/images/Here-in-My-Heart-Tulip-Bouquet_large.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Here In My Heart™ Tulip Bouquet</p>
+      <div class="card-text" >
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      </div>
+      <p><span>$49.00</span></p>
+      <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+    </div>
+  </div>
+  
+</div>
+                            <!-- Trending Products Container End -->
+
+                        <!-- Center Contents details section Start  -->
+<div class="center-content">
+  <img src="assets/images/body-image.jpg" alt="Main-Product">
+  <div class="center-details">
+  <h1>Pakistan Flower Delivery</h1>
+  <p>Ordering flowers have never been easier and we offer same-day flower delivery in Pakistan as well as all of Sindh cities. We offer not only expedited Pakistan flower delivery the same day, but also all our flower arrangements are hand-designed to perfection by one of our expert in house florists. If you wish to send flowers in Pakistan or surrounding areas and for the order to be received on the same day it must be placed by noon EST. We offer a guaranteed business delivery time by 4:30 pm as well as guaranteed funeral service time. Our delivery service remains on the road until all deliveries are complete, even after our flower shop closes. Our same day flower delivery ensures that your last-minute gift idea arrives on time and even though you may be in rush, you can rest assured that all our flower arrangements are designed with utmost care and creativity. No details are overlooked by what many consider to be the best Pakistan's florist!</p>
+  <button class="more-about"><a href="About-Us.html"><b>Learn More About Us</b></a></button>
+  </div>
+</div>
+                        <!-- Center Contents details section End -->
+
+                      <!-- Future Products Container section Start -->
+<h3 class="trend-head">Our Featured Products</h3>
+<div class="products-container-2">
+  <div class="slider owl-carousel">
+    <div class="card">
+      <div class="cards">
+        <div class="card-img">
+          <h5 class="featured"><span>FEATURED</span></h5>
+          <img src="assets/images/red-roses-folded-aspidastra.jpg" alt="product">
+        </div>
+        <div class="cards-body">
+          <p>12 Red Roses Modren</p>
+          <div class="card-text" >
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+         </div>
+         <p><span>$45  </span><span><del><small>$67</small></del></span></p>
+         <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+       </div>
+     </div>
+   </div>
+
+   <div class="card">
+    <div class="cards">
+      <div class="card-img">
+        <h5 class="featured"><span>FEATURED</span></h5>
+        <img src="assets/images/Confeti-Bouquet_large.jpg" alt="product">
+      </div>
+      <div class="cards-body">
+        <p>Confeti-Bouquet_large</p>
+        <div class="card-text" >
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+       </div>
+       <p><span>$45  </span><span><del><small>$50</small></del></span></p>
+       <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+     </div>
+   </div>
+ </div>
+
+ <div class="card">
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="featured"><span>FEATURED</span></h5>
+      <img src="assets/images/Deepest-Devotion_large.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Deepest-Devotion_large</p>
+      <div class="card-text" >
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+     </div>
+     <p><span>$450  </span><span><del><small>$500</small></del></span></p>
+     <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+   </div>
+ </div>
+</div>
+
+<div class="card">
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="featured"><span>FEATURED</span></h5>
+      <img src="assets/images/dozen-orange-roses_large.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Orange Rose Bouquet<sup>TM</sup></p>
+      <div class="card-text" >
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+     </div>
+     <p><span>$49  </span><span><del><small>$79</small></del></span></p>
+     <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+   </div>
+ </div>
+</div>
+
+<div class="card">
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="featured"><span>FEATURED</span></h5>
+      <img src="assets/images/Heartfelt-Condolences-Arrangement.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Heartfelt Condolence<small><sup>TM</sup></small></p>
+      <div class="card-text" >
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+     </div>
+     <p><span>$54  </span><span><del><small>$59</small></del></span></p>
+     <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+   </div>
+ </div>
+</div>
+
+<div class="card">
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="featured"><span>FEATURED</span></h5>
+      <img src="assets/images/make-a-wish_large.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Make A Wish<sup><small>TM</small></sup> Bouquet</p>
+      <div class="card-text" >
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+     </div>
+     <p><span>$29  </span><span><del><small>$49</small></del></span></p>
+     <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+                          <!-- Future Products Container section End -->
+</div>
+</div>
+
+<div class="products-container-1">
+      <div class="cards">
+        <div class="card-img">
+          <h5 class="featured"><span>FEATURED</span></h5>
+          <img src="assets/images/red-roses-folded-aspidastra.jpg" alt="product">
+        </div>
+        <div class="cards-body">
+          <p>12 Red Roses Modren</p>
+          <div class="card-text" >
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+         </div>
+         <p><span>$45  </span><span><del><small>$67</small></del></span></p>
+         <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+       </div>
+     </div>
+ 
+
+
+    <div class="cards">
+      <div class="card-img">
+        <h5 class="featured"><span>FEATURED</span></h5>
+        <img src="assets/images/Confeti-Bouquet_large.jpg" alt="product">
+      </div>
+      <div class="cards-body">
+        <p>Confeti-Bouquet_large</p>
+        <div class="card-text" >
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+       </div>
+       <p><span>$45  </span><span><del><small>$50</small></del></span></p>
+       <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+     </div>
+   </div>
+
+
+
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="featured"><span>FEATURED</span></h5>
+      <img src="assets/images/Deepest-Devotion_large.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Deepest-Devotion_large</p>
+      <div class="card-text" >
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+     </div>
+     <p><span>$450  </span><span><del><small>$500</small></del></span></p>
+     <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+   </div>
+ </div>
+
+
+
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="featured"><span>FEATURED</span></h5>
+      <img src="assets/images/dozen-orange-roses_large.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Orange Rose Bouquet<sup>TM</sup></p>
+      <div class="card-text" >
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+     </div>
+     <p><span>$49  </span><span><del><small>$79</small></del></span></p>
+     <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+   </div>
+ </div>
+
+
+
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="featured"><span>FEATURED</span></h5>
+      <img src="assets/images/Heartfelt-Condolences-Arrangement.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Heartfelt Condolence<small><sup>TM</sup></small></p>
+      <div class="card-text" >
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+     </div>
+     <p><span>$54  </span><span><del><small>$59</small></del></span></p>
+     <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+   </div>
+ </div>
+
+
+
+  <div class="cards">
+    <div class="card-img">
+      <h5 class="featured"><span>FEATURED</span></h5>
+      <img src="assets/images/make-a-wish_large.jpg" alt="product">
+    </div>
+    <div class="cards-body">
+      <p>Make A Wish<sup><small>TM</small></sup> Bouquet</p>
+      <div class="card-text" >
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+     </div>
+     <p><span>$29  </span><span><del><small>$49</small></del></span></p>
+     <a href="Product-Details.html"><button type="button" class="bttn btn-purchase">Order Product</button></a>
+   </div>
+ </div>
+</div>
+
+                                    <!-- Page Footer Section Start -->
+<footer class="page-footer"> 
+<div class="footer-information">
+                                    <!-- Social icons Div Block start -->
+  <div class="follow-us">
+    <h2>FOLLOW-US</h2>
+    <ul class="social-icons">
+      <li><a href="#"><span class="fa fa-twitter-square" ></span></a></li>
+      <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+      <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+      <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+    </ul>
+
+    <!-- Brands Logo Image -->
+    <div class="logos" >
+      <a href="index.html"><img src="assets/footerBrand.png"></a>
+    </div>
+  </div>
+                                  <!-- Social icons Div Block End -->
+                <!-- Help Section for Customer Start -->
+  <div class="customer-support"> <h2>HELP</h2>
+    <ul>
+      <li><a href="About-Us.html">About Us</a></li>
+      <li><a href="Customer-Services.html">Customer Service</a></li>
+      <li><a href="Policy.html">Policy & User Guide</a></li>
+      <li><a href="Employment-Opportunities.html">Job Opportunities</a></li>
+    </ul>
+  </div>
+                  <!-- Help Section for Customer End -->
+  <div class="ranging-areas"><h2>CITY SERVING</h2>
+    <ul class="cities">
+      <li><a href="#">Karachi</a></li>
+      <li><a href="#">Islamabad</a></li>
+      <li><a href="#">Lahore</a></li>
+      <li><a href="#">Khairpur</a></li>
+      <li><a href="#">Sukkur</a></li>
+      <li><a href="#">Punjab</a></li>
+      <li><a href="#">Hyderabad</a></li>
+
+    </ul>
+  </div>
+  <div class="service-timing"><h2>HOURS OF OPERATION</h2>
+    <table class="time-table">
+      <tbody class="table-body">
+        <tr>
+          <th>Sunday</th>
+          <td>9am - 12:30pm</td>
+        </tr>
+        <tr>
+          <th>Monday</th>
+          <td>8am - 4:30pm</td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td>8am - 4:30pm</td>
+        </tr>
+        <tr>
+          <th>Wednesday</th>
+          <td>8am - 4:30pm</td>
+        </tr>
+        <tr>
+          <th>Thursday</th>
+          <td>8am - 4:30pm</td>
+        </tr>
+        <tr>
+          <th>Friday</th>
+          <td>8am - 4:30pm</td>
+        </tr>
+        <tr>
+          <th>Sadurday</th>
+          <td>9am - 12:30pm</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</footer>
+                                <!-- Page Footer Section End -->
+<div class="copycorp">
+  <p>Copyright 2021 <span>&copy;</span> Blooping Petals All Right Reserved.</p>
+  <img src="assets/images/paymentopt.jpg">
+</div>
+
+<script>
+  $(".slider").owlCarousel({
+    loop: true,
+    autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+    </script>
+    
+
+
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+ </script>
+ <script>
+    $(document).ready(function() {
+  $("#myModal").modal('show');
+  window.onscroll = function(){
+	stickyNavigation();
+};
+
+})
+ </script>
+ 
+    <script src="assets/script/my-script.js"></script>
+    <script src="assets/script/my jquery.js"></script>
+  </body>
+  </html>
