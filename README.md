@@ -2,6 +2,8 @@
 **Overview**
 "Blooming Petals" is a beautifully designed e-commerce website dedicated to selling a wide variety of flowers. Built with HTML, CSS, and JavaScript, this project combines a user-friendly interface with functional features to enhance the online shopping experience. The website also includes a dynamic image slider powered by jQuery and a shopping cart that utilizes local storage for seamless item management.
 
+**View Live Demo:** https://bloomingpetalstesting.netlify.app/
+
 ## Key Features
 
 **Elegant Design:** The site features a clean and visually appealing layout, making it easy for users to browse and select their favorite flowers.
